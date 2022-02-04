@@ -1,0 +1,66 @@
+body 
+{
+    background-image: url(piekarnia2.jpg);
+    background-color: transparent;
+ background-repeat: repeat, no-repeat;
+ background-position: center, center;
+ background-attachment: fixed;
+ background-size: auto, cover;
+
+
+}
+
+.hh1
+{
+    display: flex;
+    justify-content: center;
+}
+.navigation
+{
+    display: flex;
+    justify-content: center;
+}
+.navigation ul
+{
+    display: flex;
+    
+ 
+}
+.navigation ul li
+{
+    list-style: none;
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+}
+.navigation ul li a
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    font-weight: 500;  
+    
+}
+.navigation ul li a .text
+{
+    position: relative;
+    transition: 0.5s;
+    color: black;
+}
+.navigation ul li a .text
+{
+    position: absolute;
+    color: black;
+    font-weight: 400;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+}
+.navigation ul li:hover a .text
+{
+    transform: translateY(-10px);
+}
+
